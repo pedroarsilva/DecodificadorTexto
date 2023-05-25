@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+	<title>Encriptador</title>
+</head>
+<body>
+	<header>
+		<img class="logo-alura" src="/imagens/Logo-alura.png" alt="Logo da Alura">
+	</header>
+
+	<main>
+		<section>
+			<textarea class="text-area" cols="41" rows="6" placeholder="Digite seu texto"></textarea>
+	
+			<div class="informacao">
+				<img src="/imagens/exclamacao.png" alt="!">
+				<h6>Letras minusculas e sem acentos</h6>
+			</div>
+
+			<div class="botoes">
+				<button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+				<button class="btn-descriptar" onclick="btnDesencriptar()">Descriptografar</button>
+			</div>
+		</section>
+
+		<section>
+			<textarea class="mensagem" id="texto-copiado" cols="26" rows="10" placeholder="..."></textarea>
+			<button class="btn-copiar" id="btn-copiar" onclick="btnCopiar()">Copiar</button>
+			<div class="imagem-alerta">
+                <img class="img-boneco" src="imagens/boneco.png" alt="Imagem Boneco - Aparece após clique botão copiar">
+                <img class="img-alerta" src="imagens/alerta.png" alt="Imagem mensagem-alerta - Aparece após clique botão copiar">
+            </div>
+		</section>
+	</main>
+
+	<!-- Rodapé -->
+	<footer class="footer">
+        <div class="copyright">
+            <p>&#169; 2023 – Challenge Alura por Pedro Silva</p>
+        </div>
+
+        <div class="links">
+            <a href="" target="_blank"><i class="fa fa-github"></i></a>
+            <a href="" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+        </div>
+    </footer>
+	<script src="scrypt.js"></script>
+</body>
+</html>

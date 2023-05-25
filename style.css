@@ -1,0 +1,151 @@
+* {
+    background: #5F5F5F;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+
+.logo-alura {
+    margin: 10px;
+    padding-top: 10px;
+    width: 2%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    width: 100%;
+}
+
+.text-area {
+    border: none;
+    color: white;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder {
+    color: #8CD1DA;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensagem {
+    background: white;
+    /* background-image: url(/imagens/search.png); */
+    background-size: 100%;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+
+.img-boneco {
+    background-color: white;
+    position: absolute;
+    margin-left: 98px;
+    margin-top: 20px;
+    /* padding-left: 0px; */
+    background-size: 100%;
+    border-radius: 20px;
+}
+
+.img-alerta {
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-left: 98px;
+    margin-top: 300px;
+    padding-left: 65px;
+    height: 80px;
+}
+.mensagem:focus {
+    outline: none;
+}
+
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-descriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 328px;
+    height: 67px;
+    color: #0A3871;
+    margin-left: 30px;
+}
+
+.btn-descriptar:hover {
+    color: darkred;
+    transition: 1s;
+}
+
+.btn-encriptar {
+    background: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    height: 67px;
+    width: 328px;
+    color: #8CD1DA;
+    cursor: pointer;
+}
+
+.btn-encriptar:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.btn-copiar {
+    background: 0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 336px;
+    height: 67px;
+    cursor: pointer;
+    color: #8CD1DA;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+}
+
+.btn-copiar:hover {
+    color: yellow;
+    transition: 1s;
+}
+
+.informacao {
+    display: flex;
+    /* flex-direction: row; */
+    align-items: center;
+    /* padding: 0px; */
+    gap: 8px;
+    line-height: 18px;
+    position: absolute;
+    /* width: 252px; */
+    /* height: 18px; */
+    left: 105px;
+    color: white;
+    font-size: 12px;
+    /* margin-top: 58px; */
+}
+
+.copyright {
+    text-align: left;
+    color: white;
+    font-size: 22px;
+    padding: 20px 106px 0;
+}
